@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(218, 218, 44);
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: white;
+    flex: 2;
+}
+
+main aside {
+    background-color: rgb(167, 39, 61);
+    flex: 1;
+}
+
+main nav {
+    background-color: rgb(68, 207, 161);
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(107, 24, 24);
+    padding: 1rem;
+}
