@@ -1,0 +1,75 @@
+#header {
+    text-align: center;
+    color: blue;
+    background-color: burlywood;
+}
+
+body {
+    background-color: rgb(196, 113, 193);
+    font-family: 'Lucida Sans', Verdana,
+     sans-serif;
+}
+
+blockquote {
+    text-align: center;
+    background-color: yellow;
+    border: 1px dotted black;
+}
+
+.link li {
+   display: inline;
+}
+
+.link ul {
+    list-style: none;
+    text-align: center;
+}
+
+.gambar {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bbesar {
+    font-size: 40px;
+    color: blue;
+    display: inline;
+}
+
+#profil  ul {
+    text-align: left;
+}
+
+#beternak {
+    text-align: left;
+}
+
+.koleksi img {
+    width: 23%;
+    border: 1px dashed black;
+}
+
+.promo {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.promo h3 {
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    border: 1px dashed red;
+    color: blue;
+}
+
+.promo ol {
+    background-color: yellow;
+    color: red;
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto;
+}
