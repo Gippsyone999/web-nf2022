@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form Pizza order</title>
+</head>
+<body bgcolor="#380d3d" text="#faf7fa">
+
+	 <h2> Mint Pizza</h2>
+
+	 <p> Our 12" wood-fied pizza are avileble for delivery, build your pizza and we'll delivery it within an hour
+    <hr></p>
+
+	 <form action="file:///C:/xampp/htdocs/Order%20Pizza/success/Success.html">
+
+ <table>
+	 	<tr>
+	 		<td>Name </td>
+	 		<td>:
+	 			<input type="text" required>
+	 		</td>
+        </tr>
+        <tr>
+        	<td>Phone </td>
+        	<td>:
+        		<input type="text" required>
+            </td>
+        <tr>
+            <td>address </td>
+            <td>:
+                 <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Email </td>
+            <td>:
+                <input type="text" required>
+            </td>
+         <tr>
+             <td>Deliver Instruction </td>
+             <td>:
+                <textarea maxlength="400" placeholder="Nomore than 400 character long" cols="20" rows="3"></textarea>
+            </td>
+        </tr>
+ </table>
+
+      <fieldset>
+        <legend>
+                <b>Dresing your dream pizza</b>
+        </legend>
+        <h3>Crust (Choose One)</h3>   
+        <ul style="list-style: none;">
+        	<li>
+        		<input type="radio" id="Clasic" name="Crust"><label>Classic White</label>
+        	</li>
+        	<li>
+        		<input type="radio" id="Multigrain" name="Crust"><label>Multigrain </label>
+        	</li>
+        	<li>
+        		<input type="radio" ID="Una" name="Crust"><label>Una melt </label>
+        	</li>
+        	<li>
+        		<input type="radio" id="Chessey" name="Crust"><label>Chessey Galore</label>
+        	</li>
+        	<li>
+                <input type="radio" id="Meat" name="Crust"><label>Meat Lovers</label>
+        	</li>      
+        </ul>
+
+    <h3> Toppings (Choose as many as you want)</h3>
+        <ul style="list-style: none">
+           <li>
+                <input type="checkbox">Red sauce
+           </li>
+           <li>
+               <input type="checkbox">White sauce
+           </li>
+           <li>
+               <input type="checkbox">Papperoni
+           </li>
+           <li>
+               <input type="checkbox">Mushrooms
+           </li>
+           <li>
+               <input type="checkbox">Pappers
+           </li>
+           <li>
+               <input type="checkbox">Anchoise
+           </li>
+           <li>
+               <input type="checkbox">Mozzarella Cheese
+           </li>
+        </ul>
+
+        <h3>Number</h3>
+        <label> How Many Pizza :</label><input type="Number" min="1" max="6">
+        <br>
+        <br>
+        <input type="submit" value="Bring me a pizza"><input type="reset">
+
+      </fieldset>
+	 </form>
+</body>
+</html>
