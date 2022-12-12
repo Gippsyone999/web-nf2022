@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+header, footer {
+    position: relative;
+    background-color: yellow;
+    flex: 0.1;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    left: 20%;
+
+}
+
+article {
+    background-color: rgb(119, 0, 255);
+    flex: 3;
+    height: 430px;
+
+}
+
+aside {
+    background-color: lightblue;
+    flex: 1;
+}
+
+nav {
+    background-color: lightgreen;
+    flex: 1;
+    position: absolute;
+    width: 269px;
+    height: 629px;
+    top: 0;
+}
