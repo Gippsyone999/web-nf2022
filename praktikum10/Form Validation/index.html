@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/" onsubmit="registrasi()">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <select>
+                <option value="">-- Jam keberangkatan kereta --</option>
+                <option value="12.00">12.00PM</option>
+                <option value="16.00">18.00PM</option>
+                <option value="20.00">23.00PM</option>
+            </select>
+            <hr>
+            <select>
+                <option value="">-- Tujuan keberangkatan --</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Semarang">Semarang</option>
+                <option value="Yogyakarta">Yogyakarta</option>
+            </select>
+            <hr>
+            <tr>
+                <td>Jumlah tiket</td>
+            </tr>
+            <tr>
+                <td>
+                    <br><input type="number" id="jumlahTiket" max="10" min="0">
+                </td>
+            </tr>
+            <button type="submit">Sumbit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
