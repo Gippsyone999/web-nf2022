@@ -1,0 +1,58 @@
+div {
+    margin: 10px;
+    border: 1px dotted #000;
+}
+
+.yellow {
+    width: 220px;
+    height: 130px;
+    float: none;
+    background-color: rgb(231, 255, 16);
+    position: absolute;
+}
+
+.orange {
+    width: 1061px;
+    height: 130px;
+    float: right;
+    background-color: orange;
+    position: absolute;
+    left: 250px;
+
+}
+
+.yellowgreen {
+    width: 220px;
+    height: 470px;
+    background-color: yellowgreen;
+    position: relative;
+    top: 160px;
+}
+
+.purple {
+    width: 820px;
+    height: 471px;
+    background-color: purple;
+    position: absolute;
+    top: 160px;
+    left: 250px;
+}
+
+.aqua {
+    width: 220px;
+    height: 470px;
+    float: right;
+    background-color: aqua;
+    position: absolute;
+    top: 160px;
+    right: 10px;
+}
+
+.blue {
+    width: 1303px;
+    height: 130px;
+    background-color: blue;
+    position: absolute;
+    top: 650px;
+    bottom: 100px;
+}

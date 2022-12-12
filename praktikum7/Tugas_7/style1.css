@@ -1,0 +1,53 @@
+div {
+    margin: 10px;
+    border: 1px solid #000;
+}
+.green {
+    background-color: rgb(89, 199, 89);
+    width: 1295px;
+    height: 202px;
+    float:none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 49);
+    width: 250px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+}
+
+.orange {
+    background-color: orange;
+    width: 1030px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 230px;
+    left: 277px;
+}
+
+.aqua {
+    background-color: aqua;
+    width: 1030px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 450px;
+    left: 277px;
+}
+
+.yellowgreen {
+    background-color: yellowgreen;
+    width: 250px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+}
