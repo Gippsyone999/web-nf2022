@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    color: #444;
+}
+
+table th,
+table td {
+    border: 1px solid #f5f5f5;
+    padding: 7px 17px;
+    text-align: center;
+}
+
+table thead th {
+    background-color: #35A9db;
+    color: #fff;
+    border-color: #6ca1cc;
+    text-transform: uppercase;
+}
+
+table tbody td {
+    color: #353535;
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover td {
+    background-color: #ffffa2;
+    border-color: #ffff0f;
+}
+
+table tfoot  th {
+    text-align: center;
+    background-color:  #e5f5ff;
+}
